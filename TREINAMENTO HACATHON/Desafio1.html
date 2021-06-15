@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #div1 {
+            height: 25vh;
+            background-color: #f00;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items:center;
+        }
+        #div2 {
+            height: 25vh;
+            background-color: #f50;
+            display: flex;
+            flex-direction: row;
+            align-items:center;
+            justify-content:flex-start
+        }
+        #div3 {
+            display: flex;
+            flex-direction:row ;  
+            justify-content:space-between; 
+            align-items: center;  
+        }
+        #div3 div{
+            height: 12vh;
+        }
+        .info-1 {
+            background-color:yellow;
+        }
+        .info-2 {
+            background-color: darkgreen;
+            display: flex;
+            align-items: center;
+        }
+        #div4 {
+            display: flex;
+            justify-content:start;
+            height: 12vh;
+        }
+        #div4 .info-3 {
+            background-color: #909;
+            width:50%;
+        }
+        #div4 .info-4 {
+            background-color: #00f;
+            width:50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="div1" >Div 1</div>
+    <div id="div2">
+        <p>Div 2</p>
+    </div>
+    <div id="div3">
+        <div class="info-1">Info 1</div>
+        <div class="info-2">Info 2</div>
+    </div>
+    <div id="div4">
+        <div class="info-3">Info 3</div>
+        <div class="info-4">Info 4</div>
+    </div>
+</body>
+</html>
